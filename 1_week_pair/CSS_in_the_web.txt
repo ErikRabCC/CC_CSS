@@ -1,15 +1,19 @@
 At this time, you already became familiar with the basics of CSS, 
 you can style most HTML elements with a variety of CSS properties, but for you to be hirable, more is needed.
 
+It's only natural that we want to specify where and how we want our HTMl elements to appear,
+so for this we are going to use flexbox.
 
-Now let’s look at how you can change the layout in which your HTML elements appear, 
+With flexbox you will be able to change how your HTML elements should appear, 
 in more simple terms you will be able to set how these HTML elements should appear next to each other,
     should they appear in a horizontal manner or in a vertical manner,
     how to position them evenly compared to each other,
-    declare how much gap should be between these components.
+    declare how much gap should be between these components,
+    any many more.
 
 
-Another important factor is responsivity.
+
+Another important factor is responsiveness.
 
 Your Web application must support multiple screen sizes and devices. 
 
