@@ -67,9 +67,10 @@ body {
     background-color: #23395d;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    gap: 0px 25px;
 }
 
 .flex-item {
@@ -86,26 +87,17 @@ body {
     background-color: yellow;
 }
 
-.g {
-    background-color: green;
-}
-
 .o {
     background-color: rgb(153, 107, 22);
 }
 
-.r {
-    background-color: red;
-}
 
-.gr {
-    background-color: gray;
-}
 
 #footer-container {
     width: 100dvw;
     height: 5dvh;
-
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;

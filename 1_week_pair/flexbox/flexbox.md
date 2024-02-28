@@ -162,7 +162,7 @@ By default, **flex items** will all try to fit onto **one line** even if it mean
 
 `flex-wrap` can have up to three values:
 
-- `nowrap` (default): all flex items will be on one line
+- `nowrap` (**default**): all flex items will be on one line
 - `wrap`: flex items will wrap onto multiple lines, from top to bottom.
 - `wrap-reverse`: flex items will wrap onto multiple lines from bottom to top.
 
@@ -180,5 +180,75 @@ For the sake of demonstration, the with of the previously flexbox container has 
 ![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_fw_wrap_reverse.png)
 
 # gap
+
+If we change back the `justify-content` and the `align-items` properties to `center`, we can see that there is no space between the your items. Let's change that with the `gap` property.
+
+```css
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+```
+![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_fw_wrap.png)
+
+
+Gap works in a way where we can declare the gap between the components that are next to each other in the same row, but we can also add a gap between rows.
+
+If you set the `gap` property to let's say `25px` like this:
+```css
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+} 
+```
+then you will get the result where your items will have a `25px` `gap` between them both inside of the **row** and between **rows** too.
+
+![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_gap_1.png)
+
+You can set gaps between just the rows or in a row only by providing **two values** to the `gap` property.
+
+```css
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 25px; /* gap between rows, row gap */
+} 
+```
+
+In the example above, I only set the `row gap` and didn't set any `gap` between rows.
+
+# Recap
+
+- You can make a container element a **Flexbox container** by the `display`: `flex` property and with this you can unlock further **Flexbox properties**
+- With the `flex-direction` property, you can set the **main-axis** and the **cross-axis** and by this, you declare the direction in which you want to align your items.
+- With the `justify-content` property, you can declare how you want to align your items compared to the **main-axis** and with the `align-items` property, you can declare how you want to align your items compared to the **cross-axis**
+- By default, **Flexbox** will try to fit every item inside one single row, but you can modify this behavior with the `flex-wrap` property.
+- You can also add **gap** between your items with the `gap` property.
+
+# Questions
+
+- Why is it useful to use a layout module like Flexbox?
+- Think of the previous 3 websites you visited, where do you think the developers used Flexbox?
+- What is the purpose of the main-axis and cross-axis
+
+# More on this topic
+
+If you want to dig deeper into this topic here are some resources.
+
+
+- [Beginner to medium level of visual explanation of Flexbox](https://www.youtube.com/watch?v=phWxA89Dy94&t=267s)
+- [Easy-to-understand guide for Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+ 
+
 
 
