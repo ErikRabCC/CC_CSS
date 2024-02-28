@@ -53,7 +53,53 @@ body {
 
 #main-container {
     width: 100dvw;
-    height: 80dvh;   
+    height: 80dvh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.flex-container {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: #23395d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.y {
+    background-color: yellow;
+}
+
+.g {
+    background-color: green;
+}
+
+.o {
+    background-color: rgb(153, 107, 22);
+}
+
+.r {
+    background-color: red;
+}
+
+.gr {
+    background-color: gray;
 }
 
 #footer-container {
