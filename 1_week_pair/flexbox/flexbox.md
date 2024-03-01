@@ -284,6 +284,8 @@ If you want to dig deeper into this topic here are some resources.
 
 - [Beginner to medium-level visual explanation of Flexbox](https://www.youtube.com/watch?v=phWxA89Dy94&t=267s)
 - [Easy-to-understand guide for Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+- [Browser based game about flexbox](https://flexboxfroggy.com/)
+
  
 
 
