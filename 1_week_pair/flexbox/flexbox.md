@@ -25,7 +25,38 @@ Generally speaking, it’s a good idea to use Flexbox layout because of its ease
  it handles most of your item arrangement-related challenges with its dedicated CSS properties
  and it has great browser support as most modern browsers support it. 
 
-The way it works is that you first have to create a container that serves as your flexbox container. 
+The way it works is that you first have to create a **container** that serves as your **flexbox container**. 
+
+The child elements of the **flexbox container** are called, **flexbox-items**.
+
+When we set any Flexbox-related CSS properties later on then essentially what we are doing is that we declare the rules about how these **flexbox-items** should be arranged inside of the **flexbox container**.
+These settings **won't** be applied to the **child elements** of the **flexbox-items**.
+
+For demonstrational purposes let's work with this HTML base:
+
+[NOTE] The screenshots below will contain additional CSS for the sake of being more visually appealing but they have no effect on Flexbox and it's properties.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox_demonstration</title>
+
+    <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+    </div>
+</head>
+<body>
+</body>
+</html>
+```
 
 With the 
 
@@ -227,6 +258,8 @@ You can set gaps between just the rows or in a row only by providing **two value
 
 In the example above, I only set the `row gap` and didn't set any `gap` between rows.
 
+Generally speaking, it's very convenient for us, developers to use the **gap** property because it's much easier than setting a **margin** for every individual **flexbox-item**.
+
 # Recap
 
 - You can make a container element a **Flexbox container** by the `display`: `flex` property and with this you can unlock further **Flexbox properties**
@@ -239,14 +272,17 @@ In the example above, I only set the `row gap` and didn't set any `gap` between 
 
 - Why is it useful to use a layout module like Flexbox?
 - Think of the previous 3 websites you visited, where do you think the developers used Flexbox?
-- What is the purpose of the main-axis and cross-axis
+- What is the purpose of the main-axis and cross-axis?
+- Why do we use the flex-wrap property?
+- What does the gap property do, and why is it convenient for us to use it?
+- Will the CSS settings that are set for the flexbox container affect the child elements of the flexbox items?
 
 # More on this topic
 
 If you want to dig deeper into this topic here are some resources.
 
 
-- [Beginner to medium level of visual explanation of Flexbox](https://www.youtube.com/watch?v=phWxA89Dy94&t=267s)
+- [Beginner to medium-level visual explanation of Flexbox](https://www.youtube.com/watch?v=phWxA89Dy94&t=267s)
 - [Easy-to-understand guide for Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
  
 
