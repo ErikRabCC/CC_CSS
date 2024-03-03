@@ -100,7 +100,7 @@ and if you set it to `column` or `column-reverse` then it will be the other way 
 
 The demonstration below will have the `flex-direction` set to `row`, notice that the **main axis** is now **horizontal** and the **cross axis** is **vertical**.
 
-![Flexbox main axis and cross-axis](./resources/screenshots/flexbox_1.png)
+![Flexbox main axis and cross-axis](./screenshots/flexbox_1.png)
 
 # justify-content
 With all of this being kept in mind, we can set how the items in the flexbox should be aligned relative to the main axis with the justify-content property.
@@ -121,23 +121,23 @@ The `space-between`, `space-around` and `space-evenly` values are also widely su
 The meaning of these values is pretty self-explanatory. But let's take a closer look at these values regardless.
 
 - `justify-content`: `center` The items will be positioned to the **center** compared to the **main-axis**, if the `flex-direction` is set to `row` this means that your items will be **horizontally centered**.
-![`justify-content`: `center`](./resources/screenshots/flexbox_jc_center.png)
+![`justify-content`: `center`](./screenshots/flexbox_jc_center.png)
 
 - `justify-content`: `flex-start` The items will be positioned to the **start** of the **main-axis**, if the `flex-direction` is set to `row` this means that your items will be positioned to the **left side** of the Flexbox.
-![`justify-content`: `flex-start`](./resources/screenshots/flexbox_jc_flex_start.png)
+![`justify-content`: `flex-start`](./screenshots/flexbox_jc_flex_start.png)
 
 - `justify-content`: `flex-end` is the opposite of `flex-start` meaning that your items will be positioned at the end of the **main-axis**, which if you set the `flex-direction` to `row`
 will result in having your items at the **right side** of the Flexbox.
-![`justify-content`: `flex-end`](./resources/screenshots/flexbox_jc_flex_end.png)
+![`justify-content`: `flex-end`](./screenshots/flexbox_jc_flex_end.png)
 
 - `justify-content`: `space-between` Your items will be evenly distributed along the **main-axis**. The first item is going to be at the start of the **main-axis**, and the last item is going to be at the end of the **main-axis**.
-![`justify-content`: `space-between`](./resources/screenshots/flexbox_jc_flex_space_between.png)
+![`justify-content`: `space-between`](./screenshots/flexbox_jc_flex_space_between.png)
 
 - `justify-content`: `space-around` Your items are evenly distributed along the **main-axis** with equal space around them.
-![`justify-content`: `space-around`](./resources/screenshots/flexbox_jc_flex_space_around.png)
+![`justify-content`: `space-around`](./screenshots/flexbox_jc_flex_space_around.png)
 
 - `justify-content`: `space-evenly` Your items are distributed so that the spacing between any two items (and the space to the edges) is equal.
-![`justify-content`: `space-evenly`](./resources/screenshots/flexbox_jc_flex_space_evenly.png)
+![`justify-content`: `space-evenly`](./screenshots/flexbox_jc_flex_space_evenly.png)
 
 # align-items
 
@@ -167,13 +167,13 @@ values as `justify-content` with the same behavior apart from aligning the items
 In the next demonstration, the `justify-content` property will keep its `space-evenly` value and only the `align-items` property will be changed.
 
 - `align-items`: `center` 
-![`align-items`: `center` ](./resources/screenshots/flexbox_ai_center.png)
+![`align-items`: `center` ](./screenshots/flexbox_ai_center.png)
 
 - `align-items`: `flex-start` 
-![`align-items`: `flex-start`](./resources/screenshots/flexbox_ai_flex_start.png)
+![`align-items`: `flex-start`](./screenshots/flexbox_ai_flex_start.png)
 
 - `align-items`: `flex-end` 
-![`align-items`: `flex-end`](./resources/screenshots/flexbox_ai_flex_end.png)
+![`align-items`: `flex-end`](./screenshots/flexbox_ai_flex_end.png)
 
 - etc.
 
@@ -201,14 +201,14 @@ For the sake of demonstration, the with of the previously flexbox container has 
 
 - `flex-wrap`: `nowrap` Noticed how the `width` of the items has been shrunk so that each item can fit into one row?
 
-![`flex-wrap`: `nowrap`](./resources/screenshots/flexbox_fw_nowrap.png)
+![`flex-wrap`: `nowrap`](./screenshots/flexbox_fw_nowrap.png)
 - `flex-wrap`: `wrap` Here the first four items can fit into one row without having to reduce their `width` but the fifth item has been put into a new row.
 
-![`flex-wrap`: `wrap`](./resources/screenshots/flexbox_fw_wrap.png)
+![`flex-wrap`: `wrap`](./screenshots/flexbox_fw_wrap.png)
 
 - `flex-wrap`: ``wrap-reverse` The same as last time, but the order has been reversed.
 
-![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_fw_wrap_reverse.png)
+![`flex-wrap`: ``wrap-reverse`](./screenshots/flexbox_fw_wrap_reverse.png)
 
 # gap
 
@@ -223,7 +223,7 @@ If we change back the `justify-content` and the `align-items` properties to `cen
     flex-wrap: wrap;
 } 
 ```
-![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_fw_wrap.png)
+![`flex-wrap`: ``wrap-reverse`](./screenshots/flexbox_fw_wrap.png)
 
 
 Gap works in a way where we can declare the gap between the components that are next to each other in the same row, but we can also add a gap between rows.
@@ -241,7 +241,7 @@ If you set the `gap` property to let's say `25px` like this:
 ```
 then you will get the result where your items will have a `25px` `gap` between them both inside of the **row** and between **rows** too.
 
-![`flex-wrap`: ``wrap-reverse`](./resources/screenshots/flexbox_gap_1.png)
+![`flex-wrap`: ``wrap-reverse`](./screenshots/flexbox_gap_1.png)
 
 You can set gaps between just the rows or in a row only by providing **two values** to the `gap` property.
 
