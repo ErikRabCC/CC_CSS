@@ -1,4 +1,4 @@
-# My social media
+# My Social Media
 **This is a guided project**
 
 >To learn the most, try and implement it on your own first, and check the solution only when you feel necessary. However, if you feel completely stuck, feel free to check the step-by-step solution guide.

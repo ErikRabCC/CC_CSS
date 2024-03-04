@@ -1,106 +1,52 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
-    overflow: hidden;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #152238
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10dvh;
+    width: 100%;
+    padding: 0rem 3rem 0rem 3rem;
+    background-color: rgb(16, 16, 54);
+    color: white;
 }
+   
 
-#navbar-container {
-    width: 100dvw;
-    height: 5dvw;
-    background-color: #23395d;
-
+.navbar-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 5rem;
-}
-
-
-
-#flex-container {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-#navbar-title {
-    margin-left: 1rem;
-}
-
-#navbar-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     gap: 1rem;
-    
-    margin-right: 2rem;
+
+    height: 100%;
+    width: auto;
 }
 
 .navbar-link {
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.1rem;
 }
 
-#main-container {
-    width: 100dvw;
-    height: 80dvh; 
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    flex-direction: column;
-}
-
-.flex-container {
-    border-radius: 5px;
-    width: 200px;
-    height: 150px;
-    background-color: #23395d;
+.navbar-title {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 0px 25px;
-}
 
-.flex-item {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+    width: auto;
+    height: 80%;
+    background-color: rgb(93, 93, 184);
     border-radius: 5px;
-}
-
-.y {
-    background-color: yellow;
-}
-
-.o {
-    background-color: rgb(153, 107, 22);
-}
-
-
-
-#footer-container {
-    width: 100dvw;
-    height: 5dvh;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
+    padding: 0rem 2rem 0rem 2rem;
+} 
