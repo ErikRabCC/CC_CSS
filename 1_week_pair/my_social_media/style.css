@@ -21,7 +21,6 @@
     color: white;
 }
    
-
 .navbar-links {
     display: flex;
     flex-direction: row;
@@ -50,3 +49,128 @@
     border-radius: 5px;
     padding: 0rem 2rem 0rem 2rem;
 } 
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: 100dvw;
+    height: 90dvh;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    width: 20%;
+    height: 95%;
+    border-radius: 5px;
+
+    background-color: rgb(16, 16, 54);
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: 75%;
+    height: 95%;
+    border-radius: 5px;
+
+    background-color: rgb(16, 16, 54);
+}
+
+#chat-history {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1%;
+
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+
+    background-color: rgb(93, 93, 184);
+}
+
+#message-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+
+    width: 95%;
+    height: 17%;
+    border-radius: 5px;
+
+    background-color: rgb(93, 93, 184);
+}
+
+#message-form-new-message {
+    width: 80%;
+    height: 98%;
+
+    margin: 0.2rem;
+    border-radius: 5px;
+}
+
+#message-form-send-button {
+    width: 17%;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background-color: rgb(16, 16, 54);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+
+    width: 100dvw;
+    height: auto;
+    min-height: 10dvh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: rgb(16, 16, 54);
+    color: white;
+}
+
+#TOS-and-PP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    width: 40%;
+    height: auto;
+}

@@ -61,7 +61,7 @@ On most websites, **links** and information about these policies and such are di
 Let's create a `Footer` container at the bottom of the screen and display some information like this. Naturally, you don't have to come up with your own policies for this task. It's enough if you display some text there with an **empty link**.
 
 1.  Create a `Footer` container at the bottom of the screen and add some basic styling to it (eg.: height, width)
-2.  Make some text appear at the **top** of the `Footer` in the middle, this will be a **placeholder** for **copyright-related** information.
+2.  Make some text appear at the **top** of the `Footer`, here you can place some text, this will be a **placeholder** for **copyright-related** information.
 3.  **Below** the **copyright** placeholder try to organize some **placeholder text** for your **Terms of Service** as well as your **Privacy policy**. Try to make them appear next to each other.
 
 
