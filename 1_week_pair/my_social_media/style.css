@@ -1,3 +1,12 @@
+:root {
+    --custom-dark-blue: #0d0e35;
+    --custom-blue: #2f2fa2;
+    --custom-light-blue: #7f75d4;
+    --custom-red: #f64c72;
+    --custom-light-orange: #f6904c;
+    --custom-white: #e0cccc;
+}
+
 *,
 *::after,
 *::before {
@@ -17,7 +26,7 @@
     height: 10dvh;
     width: 100%;
     padding: 0rem 3rem 0rem 3rem;
-    background-color: rgb(16, 16, 54);
+    background-color: var(--custom-dark-blue);
     color: white;
 }
    
@@ -33,21 +42,27 @@
 }
 
 .navbar-link {
-    color: white;
+    color: var(--custom-white);
     font-size: 1.1rem;
 }
 
-.navbar-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.navbar-link-type-1 {
+    text-align: center;
+    padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, var(--custom-red), var(--custom-light-orange));
+}
 
-    width: auto;
-    height: 80%;
-    background-color: rgb(93, 93, 184);
-    border-radius: 5px;
-    padding: 0rem 2rem 0rem 2rem;
+.navbar-link-type-2 {
+    text-align: center;
+    padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+    border: var(--custom-red) 0.2rem solid;
+    color: var(--custom-red);
+    border-radius: 1rem;
+}
+
+.navbar-title {
+    color: var(--custom-red);
 } 
 
 main {
@@ -55,10 +70,11 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
 
     width: 100dvw;
     height: 90dvh;
+
+    background-color: var(--custom-blue);
 }
 
 #contacts {
@@ -66,13 +82,31 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 0.5rem;
+    gap: 1rem;
 
     width: 20%;
-    height: 95%;
-    border-radius: 5px;
+    height: 100%;
+}
 
-    background-color: rgb(16, 16, 54);
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    color: var(--custom-white);
+    font-weight: bold;
+
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right, var(--custom-red), var(--custom-light-orange), var(--custom-white));
+}
+
+.contact-item > img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
 }
 
 #chat {
@@ -83,10 +117,7 @@ main {
     gap: 0.5rem;
 
     width: 75%;
-    height: 95%;
-    border-radius: 5px;
-
-    background-color: rgb(16, 16, 54);
+    height: 100%;
 }
 
 #chat-history {
@@ -100,7 +131,7 @@ main {
     height: 80%;
     border-radius: 5px;
 
-    background-color: rgb(93, 93, 184);
+   background-color: var(--custom-dark-blue);
 }
 
 #message-form {
@@ -114,16 +145,18 @@ main {
     height: 17%;
     border-radius: 5px;
 
-    background-color: rgb(93, 93, 184);
+    background-color: var(--custom-dark-blue);
 }
 
 #message-form-new-message {
     width: 80%;
-    height: 98%;
+    height: 100%;
+    padding: 0.75rem;
 
-    margin: 0.2rem;
+    background-image: linear-gradient(to right, var(--custom-light-blue), var(--custom-white), var(--custom-light-blue));
     border-radius: 5px;
 }
+
 
 #message-form-send-button {
     width: 17%;
