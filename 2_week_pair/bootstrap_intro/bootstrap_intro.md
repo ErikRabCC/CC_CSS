@@ -68,8 +68,9 @@ These work out of the box and they can integrated into any project with relative
 # More on this topic
 
 If you want to dig deeper into this topic here are some resources.
+Apart from Bootstrap it's ok if you only take a look at what components to other frameworks offer, you don't have to download them.
 
 
-- [Bootstrap documentation, I suspect that you will use it a lot, consider bookmarking it](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Bootstrap documentation, you will use it a lot, consider bookmarking it](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Check out these design elements at Prime Family, they support multiple popular frontend libraries including React](https://primereact.org/calendar/)
 - [Tailwind, also a popular CSS framework](https://tailwindcss.com/docs/installation)
