@@ -2,8 +2,7 @@
     --custom-dark-blue: #0d0e35;
     --custom-blue: #2f2fa2;
     --custom-light-blue: #7f75d4;
-    --custom-red: #f64c72;
-    --custom-light-orange: #f6904c;
+    --custom-lightest-blue: #d0cee7;
     --custom-white: #e0cccc;
 }
 
@@ -15,6 +14,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .navbar {
@@ -50,19 +50,19 @@
     text-align: center;
     padding: 0.75rem 2.5rem 0.75rem 2.5rem;
     border-radius: 1rem;
-    background-image: linear-gradient(to right, var(--custom-red), var(--custom-light-orange));
+    background-color: var(--custom-light-blue);
 }
 
 .navbar-link-type-2 {
     text-align: center;
     padding: 0.75rem 2.5rem 0.75rem 2.5rem;
-    border: var(--custom-red) 0.2rem solid;
-    color: var(--custom-red);
+    border: var(--custom-light-blue) 0.2rem solid;
+    color: var(--custom-light-blue);
     border-radius: 1rem;
 }
 
 .navbar-title {
-    color: var(--custom-red);
+    color: var(--custom-light-blue);
 } 
 
 main {
@@ -71,10 +71,12 @@ main {
     justify-content: center;
     align-items: center;
 
-    width: 100dvw;
+    width: 100%;
     height: 90dvh;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 1rem;
 
-    background-color: var(--custom-blue);
+    background-color: var(--custom-lightest-blue);
 }
 
 #contacts {
@@ -83,9 +85,13 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
-
+    
+    padding: 1rem;
     width: 20%;
     height: 100%;
+    border-radius: 5px;
+
+    background-color: var(--custom-dark-blue);
 }
 
 .contact-item {
@@ -97,10 +103,13 @@ main {
     color: var(--custom-white);
     font-weight: bold;
 
+    cursor: pointer;
+
     width: 100%;
     height: 3rem;
     border-radius: 3rem;
-    background-image: linear-gradient(to right, var(--custom-red), var(--custom-light-orange), var(--custom-white));
+    background-color: var(--custom-blue);
+    border: var(--custom-light-blue) solid 0.1rem;
 }
 
 .contact-item > img {
@@ -109,6 +118,53 @@ main {
     border-radius: 3rem;
 }
 
+.chat-history-f {
+    padding: 1rem;
+    color: var(--custom-dark-blue);
+
+    min-width: 25%;
+    width: auto;
+    height: auto;
+    border-radius: 3rem;
+    background-color: var(--custom-light-blue);
+}
+
+.chat-history-m {
+    padding: 1rem;
+    color: var(--custom-light-blue);
+
+    align-self: flex-end;
+
+    min-width: 25%;
+    width: auto;
+    height: auto;
+    border-radius: 3rem;
+    background-color: var(--custom-dark-blue);
+}
+
+.chat-history-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    background-color: var(--custom-blue);
+    width: 100%;
+    height: 5rem;
+}
+
+.chat-history-head> img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 3rem;
+}
+.chat-history-head> span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
 #chat {
     display: flex;
     flex-direction: column;
@@ -116,8 +172,12 @@ main {
     align-items: center;
     gap: 0.5rem;
 
-    width: 75%;
+    width: 70%;
     height: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+
+    background-color: var(--custom-dark-blue);
 }
 
 #chat-history {
@@ -130,8 +190,9 @@ main {
     width: 95%;
     height: 80%;
     border-radius: 5px;
+    padding: 0.5rem;
 
-   background-color: var(--custom-dark-blue);
+   background-color: var(--custom-blue);
 }
 
 #message-form {
@@ -142,10 +203,11 @@ main {
     gap: 1%;
 
     width: 95%;
-    height: 17%;
+    height: 20%;
     border-radius: 5px;
+    padding: 1rem;
 
-    background-color: var(--custom-dark-blue);
+    background-color: var(--custom-blue);
 }
 
 #message-form-new-message {
@@ -153,19 +215,19 @@ main {
     height: 100%;
     padding: 0.75rem;
 
-    background-image: linear-gradient(to right, var(--custom-light-blue), var(--custom-white), var(--custom-light-blue));
     border-radius: 5px;
 }
 
 
 #message-form-send-button {
     width: 17%;
-    height: 30%;
+    height: 100%;
     border: none;
     border-radius: 5px;
-
+    cursor: pointer;
     color: white;
-    background-color: rgb(16, 16, 54);
+    background-color: var(--custom-light-blue);
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -176,7 +238,7 @@ footer {
     align-items: center;
     gap: 1%;
 
-    width: 100dvw;
+    width: 100%;
     height: auto;
     min-height: 10dvh;
     padding-top: 1rem;

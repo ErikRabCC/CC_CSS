@@ -397,6 +397,6 @@ Naturally, there is more to `CSS` than what we could see in this project, and th
 
 The **OPTIONAL** tasks require you to add Contact elements to the page and to style them as well as to add some further styling to this project because so far it still looks pretty basic.
 
-For this, **you** are **encouraged** to try to **solve** these **optional** tasks **yourself**, I will provide you with a potential solution for both of these tasks, let's see what you can make out of this project.
+For this, **you** are **encouraged** to try to **solve** these **optional** tasks **yourself**, I will provide you with a potential solution for both of these tasks let's see what you can make out of this project.
 
 [NOTE] You can modify the provided source code as you see fit.
