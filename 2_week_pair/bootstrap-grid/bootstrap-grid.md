@@ -253,3 +253,6 @@ I would highly recommend you check out the official documentation below time fro
 
 
 - [The Official Documentation for Bootstrap Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
+
+
+<!-- rework this, the user can view the grid on his own and put more pressure on the responsive part, the student create a galary with bootstrap cards, maybe he could include other bootstrap elements -->

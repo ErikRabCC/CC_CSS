@@ -400,3 +400,7 @@ The **OPTIONAL** tasks require you to add Contact elements to the page and to st
 For this, **you** are **encouraged** to try to **solve** these **optional** tasks **yourself**, I will provide you with a potential solution for both of these tasks let's see what you can make out of this project.
 
 [NOTE] You can modify the provided source code as you see fit.
+
+In the starter project, you should see an example solution but you can experiment with other solutions.
+
+
