@@ -4,6 +4,8 @@
 - What are CSS frameworks/libraries?
 - Why should you as a developer consider using such solutions?
 - What are the advantages of using a CSS framework/library?
+- How to install and add Bootstrap to your project
+- How to use Bootstrap 
 
 
 # What are CSS frameworks/libraries?
@@ -50,27 +52,95 @@ A solution like this can contain pre-written CSS to set:
 - Design for basic HTML elements (eg.: button, input, select etc.) including hover effects and other simple effects
 - Rules for different screen sizes or sometimes you don't even have to set these rules because the default behavior is more than satisfactory
 
-These work out of the box and they can integrated into any project with relative ease.
+These work out of the box and they can integrated into any project with relative ease. It is oftentimes the case that you will end up not having to write any CSS code yourself at all.
 
+# How to install and add Bootstrap to your project
+
+There are actually **multiple** ways to add `Bootstrap` to your project. 
+
+In **most cases**, you will have to **download** the `CSS library/framework` as a separate **package** and **dependency** for your project **from** the appropriate **repository** *(for example from the npm repository for npm and node)*, but for **smaller CSS libraries** it's also ok to **request** the required **CSS** and **JS** **files** from a **third party server**.
+
+For **now**, while you are working with `native` `HTML`, `CSS` and `JS`, I would **recommend** you to **add** `bootstrap` to your project by **importing** it from a third-party server.
+
+The [Official Documentation](https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr) explains how you can do it in a very straightforward way. 
+Simply **copy** the **highlighted** two lines of code and add them to the `head` section of every `HTML` file you have.
+
+**Like this:**
+
+**Copy from the official website:**
+![Copy these two imports](./screenshots/bootstrap_intro_1.png)
+
+**and paste it into the head of every HTML file you have:**
+![Paste these two imports](./screenshots/bootstrap_intro_2.png)
+
+Great, you added `Bootstrap` to your project, it seems as if nothing has happened yet but the fact is that now you can take advantage of all the p`re-written components` and `CSS` that Bootstrap has to offer. 
+
+Now let's take a look at how you are supposed to work with it.
+
+# How to use Bootstrap 
+
+After installing bootstrap you are pretty much all set.
+
+Feel free to browse the [Official Documentation](https://getbootstrap.com/docs/5.3/getting-started/) and check out the available components and style options for certain HTML elements and for more complex features. 
+
+Typically you can find an element, you check out how it looks and below you can find an example code snippet that can copy and paste into your project.
+
+For example, let's say that you wanted to have a navigation bar on your web page,
+first, you can check if bootstrap has a navbar implementation.
+Search for "Navbar":
+
+![Search bar](./screenshots/bootstrap_intro_3.png)
+
+### Yes, there is a navbar implementation, let's check it out:
+
+![Search bar](./screenshots/bootstrap_intro_4.png)
+
+### Ok, it looks nice:
+
+![Search bar](./screenshots/bootstrap_intro_5.png)
+
+### Copy the code snippet for it:
+
+![Search bar](./screenshots/bootstrap_intro_6.png)
+
+### Paste it into your HTML file:
+
+![Search bar](./screenshots/bootstrap_intro_7.png)
+
+### And there you go, you now have a navbar in your project:
+
+![Search bar](./screenshots/bootstrap_intro_8.png)
+
+
+As you can see when a **mediocre** to good level of design is **satisfactory** then it's so good to have these **pre-written** **solutions**, you can of course **continue** to **browse** for other **components** to add to your project, and you can modify these example snippets all you want.
 
 # Recap
 
 - CSS frameworks/libraries are usually used for projects where a more generic design is more than satisfactory and there isn't a great emphasis on detailed, good-looking visuals. 
 - Most CSS frameworks/libraries come with design options for the most commonly used HTML elements, including basic animations and they can be used to set the layout of the app.
 - Solutions like these can be integrated into an existing project with usually just a few imports.
+- After `importing` `Bootstrap's CSS and JS` files you can simply **copy + paste** **code snippets** from the **documentation** and **integrate** any available Bootstrap **component** you like.
+- The **components** and **class tags** provided by Bootstrap are **fully compatible** with each other and provide a `responsive` **solution** out of the box.
 
 # Questions
 
 - Can you think about existing organizations or companies where you would use a CSS library to develop browser-based applications?
 - Many developers could write nicer-looking designs than what these CSS libraries have to offer, what advantages does using a solution like this have?
 - Please take a look at [this link](https://getbootstrap.com/docs/5.3/components/accordion/) and search through the components section on the left, pay special attention to the provided example code snippets. Do you think that you could make a simple but user-friendly web app by only using these components?
+- Do you think that it's possible to create a minimalistic but responsive website without writing a single line of CSS, only using Bootstrap?
+- Is there any component you would like to try out in your next project?
+
+# Word of advice
+
+I would highly recommend you check out the official documentation below time from time again when you are working with it in your project. It's actually a very realistic thing to actively have the documentation open and to check it out every now and then when we are working with a framework/library.
+
 
 # More on this topic
 
 If you want to dig deeper into this topic here are some resources.
-Apart from Bootstrap it's ok if you only take a look at what components to other frameworks offer, you don't have to download them.
+Apart from Bootstrap it's ok if you only take a look at what components the other frameworks offer, you don't have to download them.
 
 
 - [Bootstrap documentation, you will use it a lot, consider bookmarking it](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Check out these design elements at Prime Family, they support multiple popular frontend libraries including React](https://primereact.org/calendar/)
-- [Tailwind, also a popular CSS framework](https://tailwindcss.com/docs/installation)
+- [Tailwind, also a popular CSS framework, check out what kind of components it has](https://tailwindcss.com/docs/installation)
