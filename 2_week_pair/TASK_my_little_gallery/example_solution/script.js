@@ -81,7 +81,6 @@ window.addEventListener("click", (e) => {
         if (!favImages.includes(e.target.id)) {
             favImages.push(e.target.id)
         }
-        console.log(favImages);
     }
 })
 

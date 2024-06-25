@@ -99,14 +99,14 @@ Implement a filter functionality. Update your navbar so the user can filter the 
 Implement a feature where the user can select images as favorites, it's ok if the user's favorite images are only stored in memory for now.
 In the navbar the user can click on a link or button which will display only the images marked as favorites. If the user clicks on the home link or button then every image gets' displayed again.
 
-- The user can save images as favorites with a button press inside the image's component
+- The user can save images as favorites with a button press inside the image's component.
 - Clicking on the favorites link or button in the navbar displays only the favorite images.
 - Clicking on the home link or button in the navbar displays every image again.
 
 # Hints
-Read the official documentation for the Bootstrap Grid layout, check out the example at the top of the page and read the [How it works](https://getbootstrap.com/docs/5.3/layout/grid/#how-it-works) section as well as the [Grid options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options) section and take a look at the example code snippets below.
+Check out the official documentation for the Bootstrap Grid layout, check out the example at the top of the page and read the [How it works](https://getbootstrap.com/docs/5.3/layout/grid/#how-it-works) section as well as the [Grid options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options) section and take a look at the example code snippets below.
 
-Check out [this]() short video before you begin.
+Check out [this](https://youtu.be/yMn4re9rzxc) short video before you begin.
 
 # Example
 **Large screen**
@@ -124,4 +124,4 @@ Check out [this]() short video before you begin.
 
 
 
-<!-- rework this, the user can view the grid on his own and put more pressure on the responsive part, the student create a galary with bootstrap cards, maybe he could include other bootstrap elements -->
+<!-- rework this, the user can view the grid on his own and put more pressure on the responsive part, the student create a galary with bootstrap cards, maybe he could include other bootstrap elements BG and PROJECT -->
